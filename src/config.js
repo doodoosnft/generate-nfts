@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "NFT";
 const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "C:/Users/Administrator/Documents/GitHub/generate-nfts/build/images";
 const external_link_name = "https://www.google.com/";
 const collectionName = "CollectionName";
 
