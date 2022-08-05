@@ -26,17 +26,109 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 10,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      //Post-it notes
+      { name: "Backgrounds" },
+      { name: "Handles" },
+      { name: "Base Colors" },
+      { name: "Additives" },
+      { name: "Elemental Layers" },
+      { name: "Face Bases" },
+      { name: "Faces" },
+      { name: "Hats_Tops" }
     ],
   },
+  {
+    //sunglasses
+    growEditionSizeTo: 10,
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Handles" },
+      { name: "Base Colors" },
+      { name: "Additives" },
+      { name: "Elemental Layers" },
+      { name: "Sunglass Compatible Faces" },
+      { name: "Sunglasses" },
+      { name: "Hats_Tops" },
+    ],
+  },
+  {
+    growEditionSizeTo: 10,
+    layersOrder: [
+      //Sunstache faces
+      { name: "Backgrounds" },
+      { name: "Handles" },
+      { name: "Base Colors" },
+      { name: "Additives" },
+      { name: "Elemental Layers" },
+      { name: "Sunstache Compatible Faces" },
+      { name: "Sunglasses" },
+      { name: "Mustache" },
+      { name: "Hats_Tops" },
+    ],
+  },
+  {
+    growEditionSizeTo: 10,
+    layersOrder: [
+      //'Just Faces'
+      { name: "Backgrounds" },
+      { name: "Handles" },
+      { name: "Base Colors" },
+      { name: "Additives" },
+      { name: "Elemental Layers" },
+      { name: "Just Faces" },
+      { name: "Hats_Tops" },
+    ],
+  },
+  {
+    growEditionSizeTo: 10,
+    layersOrder: [
+      //elemental post-its
+      { name: "Backgrounds" },
+      { name: "Handles" },
+      { name: "Elementals" },
+      { name: "Elemental Layers" },
+      { name: "Face Bases" },
+      { name: "Faces" }
+    ],
+  },
+  {
+    growEditionSizeTo: 10,
+    //elemental sunglasses
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Handles" },
+      { name: "Elementals" },
+      { name: "Elemental Layers" },
+      { name: "Sunglass Compatible Faces" },
+      { name: "Sunglasses" }
+    ],
+  },
+  {
+    growEditionSizeTo: 10,
+    //elemental sunstache
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Handles" },
+      { name: "Elementals" },
+      { name: "Elemental Layers" },
+      { name: "Sunstache Compatible Faces" },
+      { name: "Sunglasses" },
+      { name: "Mustache" },
+    ],
+  },
+  {
+    growEditionSizeTo: 10,
+    //elemental regular faces
+    layersOrder: [
+      { name: "Backgrounds" },
+      { name: "Handles" },
+      { name: "Elementals" },
+      { name: "Elemental Layers" },
+      { name: "Just Faces" }
+    ],
+  }
 ];
 
 const shuffleLayerConfigurations = false;
